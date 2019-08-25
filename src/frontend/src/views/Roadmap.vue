@@ -1,5 +1,3 @@
 <template>
-  <v-app>
-    
-  </v-app>
+  <div>zzz</div>
 </template>
