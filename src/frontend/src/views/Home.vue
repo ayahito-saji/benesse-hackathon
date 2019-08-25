@@ -31,25 +31,28 @@
       return {
         jobs: [
           {
-            title: "エンジニア",
-            description: "文系20% 理系:80%",
-            bunkei: "80",
-            rikei: "20",
-            bunri: "teacher.png"
-          },
-          {
             title: "弁護士",
             description: "文系80% 理系:20%",
-            bunkei: "20",
-            rikei: "80",
-            bunri: "lawyer.png"
+            bunkei: "80",
+            rikei: "20",
           },
           {
             title: "教師",
             description: "文系50% 理系:50%",
             bunkei: "50",
             rikei: "50",
-            bunri: "programming.png"
+          },
+          {
+            title: "パティシエ",
+            description: "文系50% 理系:50%",
+            bunkei: "50",
+            rikei: "50",
+          },
+          {
+            title: "エンジニア",
+            description: "文系20% 理系:80%",
+            bunkei: "20",
+            rikei: "80",
           }
         ],
         searchText: ""
