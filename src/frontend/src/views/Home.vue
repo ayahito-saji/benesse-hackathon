@@ -12,7 +12,7 @@
   <v-card max-width="344" class="mx-auto" v-for="job in filteredJobs" style="margin-bottom: 16px;">
     <v-card-title>{{ job.title }}</v-card-title>
     <v-card-text>
-      <div><span>文系{{ job.bunkei }}%</span><span>理系{{ job.rikei }}%</span></div>
+      <div><span class="red--text">文系{{ job.bunkei }}%</span><span class="blue--text"> 理系{{ job.rikei }}%</span></div>
       <!-- <img :src="`/image/${job.bunri}`" class="grey lighten-2" max-width="30" max-height="300"/> -->
     </v-card-text>
 
