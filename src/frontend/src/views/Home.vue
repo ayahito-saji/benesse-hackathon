@@ -19,7 +19,7 @@
 
     <v-card-actions>
       <v-btn text>詳しく</v-btn>
-      <v-btn text>ロードマップ</v-btn>
+      <v-btn text @click="$router.push('/roadmap')">ロードマップ</v-btn>
     </v-card-actions>
   </v-card>
 </v-container>
@@ -57,6 +57,11 @@
     },
     computed: {
       filteredJobs: function () { return this.jobs.filter( (job) => { return job.title.indexOf(this.searchText) != -1 }) }
+    },
+    methods: {
+      goToRoadmap: function () {
+        this.$router.push('/roadmap');
+      }
     }
   }
 </script>
